@@ -2,8 +2,9 @@
   "name": "Rádio Voz de Esperança IL",
   "short_name": "Voz Esperança",
   "start_url": "./",
+  "scope": "./",
   "display": "standalone",
   "background_color": "#ffffff",
-  "theme_color": "#0b4ea2",
+  "theme_color": "#073b7a",
   "description": "Voz de Kristu — Rádio Voz de Esperança IL"
 }
