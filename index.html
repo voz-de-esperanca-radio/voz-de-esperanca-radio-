@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0b4ea2">
+  <meta name="description" content="Rádio Voz de Esperança IL — Voz de Kristu">
+  <link rel="manifest" href="manifest.json">
+  <title>Rádio Voz de Esperança IL</title>
+  <style>
+    :root{--navy:#073b7a;--blue:#0b5fc6;--sky:#eaf5ff;--ink:#10233d;--muted:#607086;--white:#fff;--red:#e53935}
+    *{box-sizing:border-box} body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Arial,sans-serif;color:var(--ink);background:#f5f9fd}
+    button,a{font:inherit}.app{max-width:520px;margin:auto;min-height:100vh;background:white;box-shadow:0 0 40px #0b4ea218}
+    header{padding:24px 22px 16px;background:linear-gradient(150deg,#fff 45%,#e9f5ff);position:relative}
+    .brand{display:flex;gap:14px;align-items:center}.mark{width:64px;height:64px;border-radius:50%;display:grid;place-items:center;background:var(--navy);color:white;font-size:29px;box-shadow:0 8px 22px #073b7a30}
+    h1{font-size:21px;line-height:1.05;margin:0;color:var(--navy);letter-spacing:.2px}.tag{margin-top:5px;color:var(--blue);font-weight:700;font-style:italic}
+    .langs{display:flex;gap:7px;margin-top:18px}.langs button{border:1px solid #d4e2f1;background:#fff;border-radius:20px;padding:6px 10px;color:var(--navy);cursor:pointer}.langs .active{background:var(--navy);color:#fff}
+    main{padding:0 20px 95px}.hero{margin:8px 0 18px;border-radius:25px;padding:24px 20px;color:#fff;text-align:center;background:linear-gradient(145deg,var(--navy),var(--blue));box-shadow:0 15px 32px #0b5fc62d}
+    .live{display:inline-flex;gap:8px;align-items:center;font-size:13px;font-weight:800;letter-spacing:1px}.dot{width:9px;height:9px;background:#ff514d;border-radius:50%;box-shadow:0 0 0 5px #ff514d26}
+    .hero h2{font-size:30px;margin:12px 0 5px}.hero p{margin:0 0 18px;color:#dfeeff}
+    .listen{display:inline-block;text-decoration:none;background:white;color:var(--navy);font-weight:900;padding:15px 24px;border-radius:30px;box-shadow:0 7px 18px #001b3a35}
+    .note{font-size:12px;color:#dfeeff;margin-top:13px!important}
+    .section-title{font-size:18px;color:var(--navy);margin:24px 3px 12px}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.card{border:1px solid #e3edf7;border-radius:18px;padding:17px;background:#fff;min-height:120px;box-shadow:0 6px 16px #0c4e8c0b;cursor:pointer}.icon{font-size:26px}.card h3{margin:9px 0 3px;font-size:15px;color:var(--navy)}.card p{font-size:12px;color:var(--muted);margin:0;line-height:1.4}
+    .mission{margin-top:18px;padding:19px;border-radius:18px;background:var(--sky);border-left:4px solid var(--blue)}.mission strong{color:var(--navy)}.mission p{font-size:13px;line-height:1.5;margin:6px 0 0}
+    nav{position:fixed;left:50%;bottom:0;transform:translateX(-50%);width:min(520px,100%);display:grid;grid-template-columns:repeat(4,1fr);background:#fff;border-top:1px solid #e1eaf3;padding:8px 4px calc(8px + env(safe-area-inset-bottom));z-index:5}
+    nav button{border:0;background:transparent;color:#687b90;font-size:11px;padding:4px;cursor:pointer}nav span{display:block;font-size:20px;margin-bottom:2px}nav .active{color:var(--blue);font-weight:800}
+    dialog{width:min(460px,92%);border:0;border-radius:22px;padding:0;box-shadow:0 20px 70px #00152c55}dialog::backdrop{background:#00152c88}.modal{padding:24px}.modal h2{color:var(--navy);margin-top:0}.modal p,.modal li{color:#51657c;line-height:1.5}.close{width:100%;border:0;border-radius:13px;background:var(--navy);color:white;padding:12px;font-weight:800;cursor:pointer}
+    footer{text-align:center;color:#7b8da1;font-size:11px;padding:12px 0 20px}
+  </style>
+</head>
+<body>
+<div class="app">
+<header>
+  <div class="brand"><div class="mark">◉</div><div><h1>RÁDIO VOZ DE<br>ESPERANÇA IL</h1><div class="tag">Voz de Kristu</div></div></div>
+  <div class="langs"><button class="active">PT</button><button>KRI</button><button>EN</button></div>
+</header>
+<main>
+  <section class="hero">
+    <div class="live"><span class="dot"></span> RÁDIO AO VIVO</div>
+    <h2>Ouça onde estiver</h2>
+    <p>Fé • Esperança • Comunidade</p>
+    <a class="listen" href="https://vozdesperanca.mixlr.com" target="_blank" rel="noopener">▶ &nbsp; OUVIR AGORA</a>
+    <p class="note">A transmissão abre no canal oficial da Mixlr.</p>
+  </section>
+
+  <h2 class="section-title">Explore a Rádio</h2>
+  <section class="grid">
+    <article class="card" data-title="Programas" data-body="Em breve: Bíblia, música cristã, entrevistas, família, juventude e programas comunitários."><div class="icon">🎙️</div><h3>Programas</h3><p>Conheça a nossa programação.</p></article>
+    <article class="card" data-title="Agenda" data-body="Aqui publicaremos os horários semanais e as próximas transmissões ao vivo."><div class="icon">📅</div><h3>Agenda</h3><p>Veja quando estaremos no ar.</p></article>
+    <article class="card" data-title="Mensagens" data-body="Espaço para sermões, estudos bíblicos, entrevistas e episódios anteriores."><div class="icon">▶️</div><h3>Mensagens</h3><p>Ouça conteúdos anteriores.</p></article>
+    <article class="card" data-title="Eventos" data-body="Eventos da rádio, igreja e iniciativas relevantes para a comunidade."><div class="icon">📣</div><h3>Eventos</h3><p>Fique ligado à comunidade.</p></article>
+    <article class="card" data-title="Pedidos de Oração" data-body="Esta área será conectada a um formulário privado para receber pedidos de oração."><div class="icon">🙏</div><h3>Oração</h3><p>Envie o seu pedido de oração.</p></article>
+    <article class="card" data-title="Sobre Nós" data-body="Rádio Voz de Esperança IL — Voz de Kristu. Uma plataforma de fé, esperança, serviço e conexão com a comunidade."><div class="icon">ℹ️</div><h3>Sobre Nós</h3><p>Conheça a missão da rádio.</p></article>
+  </section>
+
+  <section class="mission"><strong>Nossa missão</strong><p>Compartilhar uma mensagem de fé, esperança e transformação, conectando pessoas a Cristo e servindo a comunidade.</p></section>
+  <footer>Rádio Voz de Esperança IL • Voz de Kristu</footer>
+</main>
+<nav><button class="active"><span>⌂</span>Início</button><button onclick="window.open('https://vozdesperanca.mixlr.com','_blank')"><span>◉</span>Ao Vivo</button><button onclick="openCard('Programas','Em breve: a programação completa da rádio.')"><span>🎙</span>Programas</button><button onclick="openCard('Mais','Agenda • Mensagens • Eventos • Oração • Sobre Nós')"><span>☰</span>Mais</button></nav>
+</div>
+
+<dialog id="modal"><div class="modal"><h2 id="modalTitle"></h2><p id="modalBody"></p><button class="close" onclick="modal.close()">Fechar</button></div></dialog>
+<script>
+const modal=document.getElementById('modal'), mt=document.getElementById('modalTitle'), mb=document.getElementById('modalBody');
+function openCard(t,b){mt.textContent=t;mb.textContent=b;modal.showModal()}
+document.querySelectorAll('.card').forEach(c=>c.addEventListener('click',()=>openCard(c.dataset.title,c.dataset.body)));
+document.querySelectorAll('.langs button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.langs button').forEach(x=>x.classList.remove('active'));b.classList.add('active');openCard('Idiomas','A estrutura multilíngue está pronta. Na próxima versão adicionaremos as traduções completas para '+b.textContent+'.')}));
+if('serviceWorker' in navigator) navigator.serviceWorker.register('./sw.js').catch(()=>{});
+</script>
+</body>
+</html>
