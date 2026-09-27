@@ -1,20 +1,17 @@
-RÁDIO VOZ DE ESPERANÇA IL — VERSION 3
+RÁDIO VOZ DE ESPERANÇA IL — VERSION 4
 
-UPGRADE
-- Official uploaded Rádio Voz de Esperança IL logo integrated
-- Real PWA icons (192 and 512)
-- Install App helper
-- Share Radio button
-- PT / KRI / EN preserved
-- Mixlr live link preserved
+NEW: WORKING PRAYER REQUEST FORM
+Destination email: theosagapa@gmail.com
+Fields: name, optional email, optional phone, prayer request, confidential checkbox.
+The form uses FormSubmit's AJAX endpoint so visitors remain in the radio app.
 
-UPLOAD ALL THESE FILES TO THE ROOT OF YOUR GITHUB REPOSITORY:
-index.html
-manifest.json
-sw.js
-logo-radio.png
-icon-192.png
-icon-512.png
+IMPORTANT FIRST-TIME ACTIVATION
+After Version 4 is online, submit ONE test prayer request.
+FormSubmit should send an activation/confirmation email to theosagapa@gmail.com.
+Open that email and confirm/activate the form. Check Spam/Junk if needed.
+After activation, future requests should arrive by email.
 
-Replace the existing index.html, manifest.json and sw.js when GitHub asks.
-Then Commit changes. GitHub Pages should redeploy automatically.
+UPLOAD TO GITHUB ROOT
+Replace index.html and sw.js.
+Also keep/upload manifest.json, logo-radio.png, icon-192.png and icon-512.png if already present.
+Commit changes and wait for GitHub Pages to redeploy.
