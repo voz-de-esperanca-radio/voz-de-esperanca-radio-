@@ -1,22 +1,20 @@
-RÁDIO VOZ DE ESPERANÇA IL — VERSION 2
+RÁDIO VOZ DE ESPERANÇA IL — VERSION 3
 
-WHAT CHANGED
-- Refined blue/white mobile-first design
-- Working PT / KRI / EN interface translation
-- Live button remains connected to https://vozdesperanca.mixlr.com
-- Improved Programs, Schedule, Messages, Events, Prayer and About sections
-- PWA manifest + offline shell caching
+UPGRADE
+- Official uploaded Rádio Voz de Esperança IL logo integrated
+- Real PWA icons (192 and 512)
+- Install App helper
+- Share Radio button
+- PT / KRI / EN preserved
+- Mixlr live link preserved
 
-UPDATE YOUR GITHUB PAGES SITE
-1. Open your voz-de-esperanca-radio- repository on GitHub.
-2. Upload/replace index.html, manifest.json and sw.js with these Version 2 files.
-3. Commit the changes to the main branch.
-4. Wait briefly for GitHub Pages to redeploy.
-5. Refresh the public site. If an old cached version appears, hard-refresh/reopen the browser.
+UPLOAD ALL THESE FILES TO THE ROOT OF YOUR GITHUB REPOSITORY:
+index.html
+manifest.json
+sw.js
+logo-radio.png
+icon-192.png
+icon-512.png
 
-NEXT VERSION
-- Official logo/icon assets
-- Real weekly programming schedule
-- Working prayer-request form
-- Program/sermon archive
-- Share/install controls
+Replace the existing index.html, manifest.json and sw.js when GitHub asks.
+Then Commit changes. GitHub Pages should redeploy automatically.
